@@ -1,28 +1,90 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+body {
+	background-color: white;
+}
+
+#title {
+	color: #2AB69D;
+	font-family: Oswald, sans-serif;
+	text-align: center;
+	font-size: 3em;
+	margin-top: 5%;
+}
+
+#title:hover {
+	color: #FDC536;
+}
+
+#hashtag {
+	color: #E65848;
+	font-family: Oxygen, sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.front {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+.front p {
+	text-align: center;
+	font-size: 2em;
+	line-height: 150%;
+	font-family: Oxygen, serif;
+}
+
+.navigation {
+	font-family: Oswald, sans-serif;
+	text-align: center;
+	font-size: 2em;
+	background-color: #343844;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	
+}
+
+.navigation a:link {
+	font-family: Oswald, sans-serif;
+	color: #2AB69D;
+}
+
+.navigation a:hover {
+	color: #FDC536;
+}
+
+.navigation a:visited {
+	color: #E65848;
+}
+
+.p, footer {
+	font-family: Oxygen, serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+p a:link {
+	color: #2AB69D;
+}
+
+p a:hover {
+	color: #FDC536;
+}
+
+p a:visited {
+	color: #E65848;
+}
+
+
+footer {
+	font-size: .75em;
+	text-align: center;
+}
+
+
+.intro {
+	display: block;
+}
